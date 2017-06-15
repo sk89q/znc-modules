@@ -21,9 +21,11 @@
 //
 // Use /msg *highlightattach help for help
 
-#include "Chan.h"
-#include "Modules.h"
+#include "znc/Chan.h"
+#include "znc/Modules.h"
 #include <pcrecpp.h>
+
+using std::vector;
 
 class CPattern
 {
